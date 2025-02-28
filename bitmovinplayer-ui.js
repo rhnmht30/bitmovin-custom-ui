@@ -3131,7 +3131,7 @@ var PlaybackSpeedSelectBox = /** @class */ (function (_super) {
     function PlaybackSpeedSelectBox(config) {
         if (config === void 0) { config = {}; }
         var _this = _super.call(this, config) || this;
-        _this.defaultPlaybackSpeeds = [0.25, 0.5, 1, 1.5, 2];
+        _this.defaultPlaybackSpeeds = [0.25, 0.5, 1, 1.25, 1.5, 2];
         _this.config = _this.mergeConfig(config, {
             cssClasses: ['ui-playbackspeedselectbox'],
         }, _this.config);
